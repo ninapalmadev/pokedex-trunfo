@@ -7,17 +7,19 @@
     <title>Pokedex - Trunfo</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Pokedex Trufo</h1>
+        <h1 class="title">Pokedex Trufo</h1>
     </header>
     <main>
         <div class="container">
             <section class="search-view">
                 <div class="search">
+                    <p>Busque por:</p>
                     <form action="search">
                         <input type="search" name="search-name" id="search-name" placeholder="Nome:">
                         <input type="search" name="search-type" id="search-type" placeholder="Tipo:">
@@ -26,12 +28,8 @@
                 <div class="more-info">
                     <p>Clique no Pokemón para ver mais informações aqui.</p>
                 </div>
-                <div class="favorite">
-                    <p>Favoritar</p>
-                    <img src="" alt="">
-                </div>
             </section>
-            <section class="pokemons-list">
+            <section class="pokemons-details">
                 <div class="card">
                     <p class="hp">
                         <span>HP</span>
@@ -64,6 +62,12 @@
                             </dd>
                         </dl>
                     </div>
+                </div>
+            </section>
+            <section class="favorite">
+                <div class="fa">
+                    <p>Favoritar</p>
+                    <img src="" alt="">
                 </div>
             </section>
         </div>
