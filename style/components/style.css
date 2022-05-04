@@ -4,7 +4,25 @@
     --cor-fundo: #f4f7f8;
     --cor-roxo-principal: #6B05AA;
     --cor-branco: #fff;
+ /*cores dos pokemóns por tipo*/
+    --bug: #26de81;
+    --dragon: #ffeaa7;
+    --electric: #fed330;
+    --fairy: #FF0069;
+    --fighting: #30336b;
+    --fire: #f0932b;
+    --flying: #81ecec;
+    --grass: #00b894;
+    --ground: #EFB549;
+    --ghost: #a55eea;
+    --ice: #74b9ff;
+    --normal: #95afc0;
+    --poison: #6c5ce7;
+    --psychic: #a29bfe;
+    --rock: #2d3436;
+    --water: #0190FF;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -15,24 +33,13 @@
 body {
     background-color: #f4f7f8;
 }
+
 .title {
     text-align: center;
     margin: 15px 0;
     font-size: 2.3em;
 }
-.container .more-info {
-    border-bottom: 2px solid var(--cor-roxo-principal);
-    background-color: var(--cor-branco);
-    height: 370px;
-    margin-top: 10px;
-    padding: 1rem;
-    text-align: center;
-}
 
-.container .more-info p{
-    font-size: 2rem;
-    align-content: center;
-    padding-top: 4.5rem;
-}
+
 
 
