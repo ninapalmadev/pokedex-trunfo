@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/components/style.css">
+    <link rel="stylesheet" href="style/components/main-container.css">
 </head>
 <body>
     <header>
@@ -30,9 +31,10 @@
                 </div>
             </section>
             <section class="pokemons-details">
-                <div class="card">
+                <div id="card">
                     <p class="hp">
                         <span>HP</span>
+                        80
                     </p>
                     <img src="assets/Pokemon-PNG-Image-27842.png" alt="">
                     <h2 class="poke-name">Sample Name</h2>
@@ -42,24 +44,30 @@
                     </div>
                     <div class="stats">
                         <dl class="stats-hp">
-                            <dt class="title">HP</dt>
-                            <dd>
-                                <progress class="progress-bar" max="100" value="70">
-                                    70%
-                                </progress>    
-                            </dd>
-                            <dt class="title">Attack</dt>
-                            <dd>
-                                <progress class="progress-bar" max="100" value="70">
-                                    70%
-                                </progress>    
-                            </dd>
-                            <dt class="title">Defense</dt>
-                            <dd>
-                                <progress class="progress-bar" max="100" value="70">
-                                    70%
-                                </progress>    
-                            </dd>
+                            <div>
+                                <dt class="title">HP</dt>
+                                <dd>
+                                    <progress class="progress-bar" max="100" value="70">
+                                        70%
+                                    </progress>
+                                </dd>
+                            </div>
+                            <div>
+                                <dt class="title">Attack</dt>
+                                <dd>
+                                    <progress class="progress-bar" max="100" value="70">
+                                        70%
+                                    </progress>
+                                </dd>
+                            </div>
+                            <div>
+                                <dt class="title">Defense</dt>
+                                <dd>
+                                    <progress class="progress-bar" max="100" value="70">
+                                        70%
+                                    </progress>
+                                </dd>
+                            </div>
                         </dl>
                     </div>
                 </div>
