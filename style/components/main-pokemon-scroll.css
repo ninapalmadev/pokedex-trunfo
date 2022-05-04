@@ -1,9 +1,10 @@
 .pokemon-scroll {
     display: flex;
 	flex-wrap: wrap;
-	gap: 2rem;
+    gap: 2rem;
     background-color: white;
     width: 100%;
+    height: 85vh;
     margin-left: 1rem;
     padding: 2rem;
     border: 2px solid #6B05AA;
@@ -11,3 +12,12 @@
     border-radius: 20px;
 }
 
+.pokemon-scroll .card-scroll {
+    padding: 0.5rem;
+    width: 160px;
+    height: 160px;
+	color: #222;
+	text-align: center;
+	border: 1px solid rgb(133, 133, 133);
+	border-radius: 20px;
+}
