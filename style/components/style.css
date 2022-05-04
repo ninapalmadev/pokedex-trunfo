@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+body {
+    background-color: #effeff;
+}
+.title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 3em;
+}
+
+.container .search {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 1rem;
+    background-color: white;
+    border-bottom: 2px solid #6B05AA;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container .more-info {
+    border-bottom: 2px solid #6B05AA;
+    background-color: white;
+    height: 350px;
+    margin-top: 10px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#card {
+    background: radial-gradient(circle at 50% -10%, orange 56%, #fff 56%);
+    width: 100%;
+    padding: 30px 20px;
+
+}
+#card .hp{
+    width: 80px;
+    background-color: white;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 400;
+}
+#card .poke-name{
+    text-align: center;
+    font-weight: 600;
+}
+#card .types{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 20px 0;
+}
+
+.container .pokemons-details {
+    background-color: white;
+    height: 350px;
+}
+
+.container .pokemons-details img {
+    display: block;
+    max-height: 110px;
+    margin: 20px auto;
+}
+.container .pokemons-details .stats-hp .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #535353;
+}
+
+.container .pokemons-details .stats-hp div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    height: 20px;
+    justify-content: space-between;
+}
+
