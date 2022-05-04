@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --cor-fundo: #f4f7f8;
+    --cor-roxo-principal: #6B05AA;
+    --cor-branco: #fff;
+}
 * {
     margin: 0;
     padding: 0;
@@ -10,16 +17,22 @@ body {
 }
 .title {
     text-align: center;
-    margin: 20px 0;
-    font-size: 2.5em;
+    margin: 15px 0;
+    font-size: 2.3em;
 }
 .container .more-info {
-    border-bottom: 2px solid #6B05AA;
-    background-color: white;
-    height: 350px;
+    border-bottom: 2px solid var(--cor-roxo-principal);
+    background-color: var(--cor-branco);
+    height: 370px;
     margin-top: 10px;
     padding: 1rem;
     text-align: center;
-    font-size: 0.8em;
 }
+
+.container .more-info p{
+    font-size: 2rem;
+    align-content: center;
+    padding-top: 4.5rem;
+}
+
 

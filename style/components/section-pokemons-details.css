@@ -6,7 +6,7 @@
 }
 #card .hp{
     width: 80px;
-    background-color: white;
+    background-color: var(--cor-branco);
     text-align: center;
     padding: 8px 0;
     border-radius: 30px;
@@ -33,7 +33,6 @@
     font-weight: bold;
     color: #535353;
 }
-
 .pokemons-details .stats-hp div{
     display: flex;
     align-items: center;
@@ -44,7 +43,7 @@
 }
 .progress-bar {
     margin-left: 1rem;
-    background-color: #fff;
+    background-color: var(--cor-branco);
 }
 
 .progress-bar::-webkit-progress-bar,

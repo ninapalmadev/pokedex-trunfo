@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: column;
     height: 150px;
-    padding: 1.2rem;
-    background-color: white;
-    border-bottom: 2px solid #6B05AA;
+    width: 100%;
+    padding: 1.2rem 2rem;
+    background-color: var(--cor-branco);
+    border-bottom: 2px solid var(--cor-roxo-principal);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .search input {
-    border: 2px solid #6B05AA;
+    border: 2px solid var(--cor-roxo-principal);
     border-radius: 30px;
     padding: 8px;
     margin-top: 10px;
