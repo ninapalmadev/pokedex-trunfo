@@ -28,3 +28,55 @@ main .container {
     padding-top: 40px;
 }
 
+@media screen and (max-width:1024px) {
+    main {
+        display: flex;
+        width: 1024px;
+        height: 90vh;
+        margin: 0 auto;
+        justify-content: space-between;
+        }
+    main .container {
+        width: 380px;
+        height: 85vh;
+        padding: 0 10px;
+    }
+    main .container .more-info {
+        height: 300px;
+    }
+    main .container .more-info p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:768px) {
+    main {
+        display: flex;
+        width: 768px;
+        height: 90vh;
+        margin: 0 auto;
+        justify-content: space-between;
+        }
+    main .container {
+        width: 250px;
+        height: 85vh;
+    }
+    main .container .more-info {
+        height: 220px;
+    }
+    main .container .more-info p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:640px) {
+    main {
+        display: flex;
+        width: 640px;
+        height: 90vh;
+        margin: 0 auto;
+        justify-content: space-between;
+        }
+    main .container {
+        display: none;
+    }
+}
