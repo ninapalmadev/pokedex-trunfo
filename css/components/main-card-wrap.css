@@ -26,3 +26,54 @@
 .card .card-type{
     font-size: 0.7rem;
 }
+
+@media screen and (max-width:1024px) {
+    .card-wrap{
+        width: 85%;
+        margin-right: 15px;
+        align-items: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .card-wrap{
+        width: 85%;
+        margin-right: 15px;
+        align-items: center;
+    }
+    .card-wrap .card{
+        width: 120px;
+        height: 160px;
+    }
+    .card .card-img {
+        width: 70%;
+    }
+    .card .card-title {
+        font-size:0.7rem;
+        text-transform: uppercase;
+    }
+    .card .id-pokemon{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .card-wrap{
+        width: 85%;
+        margin: auto;
+    }
+    .card-wrap .card{
+        width: 150px;
+        height: 180px;
+        margin: 5px 5px;
+    }
+    .card .card-img {
+        width: 75%;
+    }
+    .card .card-title {
+        font-size:0.8rem;
+        text-transform: uppercase;
+    }
+    .card .id-pokemon{
+        font-size: 0.6rem;
+    }
+}

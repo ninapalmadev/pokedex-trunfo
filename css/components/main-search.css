@@ -19,3 +19,15 @@
     font-weight: bold;
     font-size: 1em;
 }
+
+@media screen and (max-width:1024px) {
+    .container .search {
+    font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container .search {
+    font-size: 0.6em;
+    }
+}

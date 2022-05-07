@@ -12,3 +12,23 @@
     font-size: 1.5rem;
     color: var(--cor-roxo-principal);
 }
+
+@media screen and (max-width:1024px){
+    .favorite{
+        height: 90%;
+        margin: 0;
+    }
+    #fav-btn a {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:768px){
+    .favorite{
+        height: 90%;
+    }
+}
+@media screen and (max-width:640px){
+    .favorite{
+        display: block;
+    }
+}
