@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style/components/style.css">
-    <link rel="stylesheet" href="style/components/main-container.css">
-    <link rel="stylesheet" href="style/components/main-search.css">
-    <link rel="stylesheet" href="style/components/section-pokemons-details.css">
-    <link rel="stylesheet" href="style/components/main-pokemon-scroll.css">
-    <link rel="stylesheet" href="style/components/section-favorites.css">
+    <link rel="stylesheet" href="css/components/style.css">
+    <link rel="stylesheet" href="css/components/main-container.css">
+    <link rel="stylesheet" href="css/components/main-search.css">
+    <link rel="stylesheet" href="css/components/section-pokemons-details.css">
+    <link rel="stylesheet" href="css/components/main-card-wrap.css">
+    <link rel="stylesheet" href="css/components/section-favorites.css">
     <title>Pokedex - Trunfo</title>
 </head>
 <body>
     <header>
         <h1 class="title">Pokedex Trunfo</h1>
+        <p class="info-mobile">Clique no Pokemón para ver mais informações.</p>
     </header>
     <main>
         <div class="container">
@@ -76,32 +77,55 @@
             </section>
             <section class="favorite">
                 <buttom id="fav-btn" name="fav-btn" type="submit">
-                    <input type="image" src="assets/estrela-fav.png" 
-                    alt="icone de estrela para favoritar" height="60px">
-                    Favoritar
+                    <a href="#">
+                        <input type="image" src="assets/estrela-fav.png"
+                        alt="icone de estrela para favoritar" height="60px">
+                        Favoritar
+                    </a>
                 </buttom>
             </section>
         </div>
-        <div class="pokemon-scroll">
-            <div class="card-scroll">
-                <p>lorem</p>
+        <div class="card-wrap">
+            <div class="card">
+                <img class="card-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Imagem do pokemon dentro do card">
+                <h3 class="card-title">Nome </h3>
+                <p class="card-type">Tipo | Tipo </p>
+                <p class="id-pokemon">#ID</p>
             </div>
-            <div class="card-scroll">
-                <p>lorem</p>
+            <div class="card">
+                <img class="card-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Imagem do pokemon dentro do card">
+                <h3 class="card-title">Nome </h3>
+                <p class="card-type">Tipo | Tipo </p>
+                <p class="id-pokemon">#ID</p>
             </div>
-            <div class="card-scroll">
-                <p>lorem</p>
+            <div class="card">
+                <img class="card-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Imagem do pokemon dentro do card">
+                <h3 class="card-title">Nome </h3>
+                <p class="card-type">Tipo | Tipo </p>
+                <p class="id-pokemon">#ID</p>
             </div>
-            <div class="card-scroll">
-                <p>lorem</p>
+            <div class="card">
+                <img class="card-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Imagem do pokemon dentro do card">
+                <h3 class="card-title">Nome </h3>
+                <p class="card-type">Tipo | Tipo </p>
+                <p class="id-pokemon">#ID</p>
             </div>
-            <div class="card-scroll">
-                <p>lorem</p>
+            <div class="card">
+                <img class="card-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Imagem do pokemon dentro do card">
+                <h3 class="card-title">Nome </h3>
+                <p class="card-type">Tipo | Tipo </p>
+                <p class="id-pokemon">#ID</p>
             </div>
-            <div class="card-scroll">
-                <p>lorem</p>
+            <div class="card">
+                <img class="card-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Imagem do pokemon dentro do card">
+                <h3 class="card-title">Nome </h3>
+                <p class="card-type">Tipo | Tipo </p>
+                <p class="id-pokemon">#ID</p>
             </div>
         </div>
     </main>
+    <footer>
+        Site Criado por <a href="">Nina Palma</a> com <img src="" alt=""> Front Arretado
+    </footer>
 </body>
 </html>
