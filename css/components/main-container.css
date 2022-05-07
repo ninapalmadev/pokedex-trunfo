@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    width: 1280px;
+    height: 90vh;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+main .container {
+    width: 480px;
+    height: 85vh;
+    padding: 0 10px;
+    background-color: var(--cor-branco);
+    border: 2px solid var(--cor-roxo-principal);
+    box-shadow: 5px 5px 10px rgb(100, 100, 100);
+    border-radius: 20px;   
+}
+.container .more-info {
+    border-bottom: 2px solid var(--cor-roxo-principal);
+    background-color: var(--cor-branco);
+    height: 310px;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+}
+.container .more-info p{
+    font-size: 2rem;
+    align-content: center;
+    padding-top: 40px;
+}
+

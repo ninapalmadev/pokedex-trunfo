@@ -1,0 +1,57 @@
+#card {
+    display: none;
+    background: radial-gradient(circle at 50% -10%, orange 56%, #fff 56%);
+    width: 100%;
+    padding: 30px 20px;
+}
+#card .hp{
+    width: 80px;
+    background-color: var(--cor-branco);
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 400;
+}
+#card .poke-name{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+#card .types{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 20px 0;
+}
+#card img {
+    display: block;
+    max-height: 110px;
+    margin: 20px auto;
+}
+.pokemons-details .stats-hp .title {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #535353;
+}
+.pokemons-details .stats-hp div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    height: 20px;
+    justify-content: space-between;
+}
+.progress-bar {
+    margin-left: 1rem;
+    background-color: var(--cor-branco);
+}
+
+.progress-bar::-webkit-progress-bar,
+.progress-bar::-webkit-progress-value {
+    width: 70%;
+    background-color: #AF60BC;
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: #AF60BC;
+}

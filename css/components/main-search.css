@@ -1,0 +1,21 @@
+.container .search {
+    height: 100%;
+    width: 100%;
+    padding: 20px 30px;
+    background-color: var(--cor-branco);
+    border-bottom: 2px solid var(--cor-roxo-principal);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.search input {
+    border: 2px solid var(--cor-roxo-principal);
+    border-radius: 35px;
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+}
+.search p {
+    font-weight: bold;
+    font-size: 1em;
+}
