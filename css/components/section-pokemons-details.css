@@ -1,64 +1,54 @@
-.pokemons-details{
+.container-card {
     display: none;
-	width: 300px;
-	height: 300px;
+    width: 300px;
+	height: 320px;
 }
-#card {
-    background: radial-gradient(circle at 50% -10%, orange 56%, #fff 56%);
-    padding: 20px 20px;
+.pokemon-info {
+    background: radial-gradient(circle at 50% -5%, orange 36%, #fff 36%);
+    padding: 12px;
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0,0,0, 0.15);
+    text-transform: uppercase;
 }
-#card .hp{
+.hp{
     width: 80px;
     background-color: white;
     text-align: center;
     padding: 8px 0;
     border-radius: 30px;
     margin-left: auto;
-    font-weight: 400;
+    font-weight: bold;
 }
-#card .poke-name{
+.poke-name{
     text-align: center;
     font-weight: 600;
-    font-size: 1.2em;
-}
-#card .types{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px 0 20px 0;
-}
-#card img {
-    display: block;
-    max-height: 110px;
-    margin: 20px auto;
-}
-.pokemons-details .stats-hp .title {
     font-size: 1.1em;
+}
+.types{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0 20px 0;
+    font-size: 0.8em;
     font-weight: bold;
     color: #535353;
 }
-.stats {
-	display: flex;
+.pokemon-img {
+    height: 110px;
+    margin: 10px auto;
 }
-.pokemons-details .stats-hp div{
+.stats-info {
     display: flex;
-    align-items: center;
-    padding: 10px;
-	margin: 5px 0;
-    height: 20px;
     justify-content: space-between;
+    padding-bottom: 10px;
+    font-size: 0.8em;
+    color: #535353;
 }
-.progress-bar {
-    margin-left: 1rem;
-    background-color: var(--cor-branco);
+
+.stats-info span {
+    font-weight: bold;
 }
-.progress-bar::-webkit-progress-bar,
-.progress-bar::-webkit-progress-value {
-    width: 70%;
-    background-color: #AF60BC;
-}
-.progress-bar::-moz-progress-bar {
-    background-color: #AF60BC;
-}
+
 @media screen and (max-width:1024px) {
 	.pokemons-details{
 		height: 300px;
@@ -69,7 +59,6 @@
 		height: 320px;
 	}
 }
-
 @media screen and (max-width:640px) {
    
 }
