@@ -1,5 +1,7 @@
 .favorite {
+    display: none;
     height: 100%;
+    margin-top: 100px;
 }
 
 #fav-btn a{
@@ -24,7 +26,7 @@
 }
 @media screen and (max-width:768px){
     .favorite{
-        height: 90%;
+        display: none;
     }
 }
 @media screen and (max-width:640px){

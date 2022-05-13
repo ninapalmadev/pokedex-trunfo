@@ -1,14 +1,10 @@
 .container-card {
-    display: none;
-    width: 300px;
+    width: 340px;
 	height: 320px;
 }
 .pokemon-info {
-    background: radial-gradient(circle at 50% -5%, orange 36%, #fff 36%);
-    padding: 12px;
-    width: 100%;
-    padding: 30px 20px;
-    box-shadow: 0 20px 30px rgba(0,0,0, 0.15);
+    width: 90%;
+    padding: 20px 10px;
     text-transform: uppercase;
 }
 .hp{
@@ -50,15 +46,29 @@
 }
 
 @media screen and (max-width:1024px) {
-	.pokemons-details{
-		height: 300px;
+	.container-card{
+		margin: 0;
+        padding: 0;
 	}
 }
 @media screen and (max-width:768px) {
-    .pokemons-details{
-		height: 320px;
+    .container-card{
+        width: 300px;
+        margin: 0;
+        padding: 0;
 	}
+    .pokemon-info{
+        font-size: 0.95em;
+        width: 69%;
+        padding: 0;
+    }
+    .stats-info {
+        font-size: 0.6em;
+    }
 }
 @media screen and (max-width:640px) {
-   
+    .container-card{
+
+    }
+
 }
