@@ -18,12 +18,24 @@ const fetchPokemon = () => {
             type: data.types.map(typeInfo => typeInfo.type.name).join(' | ')
         }));
         cardPokemon(pokemon);
+
+        //BUSCA POR NOME E TIPO
+        searchInput.addEventListener('keyup', (e)=> {
+            const searchString = e.target.value.toLowerCase();
+            const filtredPokemons = pokemon.filter((character) => {
+                return (
+                    character.name.toLowerCase().includes(searchString) ||
+                    character.type.toLowerCase().includes(searchString)
+                    )
+            });
+            cardPokemon(filtredPokemons);
+        });
     });
 };
 //INFORMAÇÕES DO POKEMON NA MAIN
 const cardPokemon = (pokemon) => {
     const pokemonHTML = pokemon.map((infoPokemon) => 
-        `<div onClick="fetchPokemonCard(${infoPokemon.id})" class="card unit ${infoPokemon.type}">
+        `<div onClick="fetchPokemonCard(${infoPokemon.id})" class="card ${infoPokemon.type}">
             <img class="card-img" src="${infoPokemon.image}" 
             alt="Imagem do pokemon ${infoPokemon.name}"/>
             <h3 class="card-title nome-pokemon">${infoPokemon.name}</h3>
@@ -35,7 +47,6 @@ const cardPokemon = (pokemon) => {
     card.innerHTML = pokemonHTML;
 };
 fetchPokemon()
-
 //CARD COM AS INFORMAÇÕES DO POKEMON SELECIONADO
 const fetchPokemonCard = (pokemonNumber) => {
     const url = `https://pokeapi.co/api/v2/pokemon/${pokemonNumber}`;
@@ -56,7 +67,6 @@ const fetchPokemonCard = (pokemonNumber) => {
                 special_defense: data.stats[4].base_stat,
                 speed: data.stats[5].base_stat
             };
-
             pokeCard.innerHTML = `
             <div class="pokemon-info ${pokemon.type}"> 
                 <p class="hp">
@@ -94,5 +104,3 @@ const fetchPokemonCard = (pokemonNumber) => {
             `;
         });
 };
-
-// BUSCA POR NOME
