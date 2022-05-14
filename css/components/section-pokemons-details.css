@@ -3,7 +3,7 @@
 	height: 320px;
 }
 .pokemon-info {
-    width: 90%;
+    width: 100%;
     padding: 20px 10px;
     text-transform: uppercase;
 }
@@ -40,35 +40,37 @@
     font-size: 0.8em;
     color: #535353;
 }
-
 .stats-info span {
     font-weight: bold;
+}
+.pokemon-info {
+    height: 400px;
 }
 
 @media screen and (max-width:1024px) {
 	.container-card{
 		margin: 0;
         padding: 0;
+        width: 100%;
 	}
 }
 @media screen and (max-width:768px) {
     .container-card{
-        width: 300px;
         margin: 0;
         padding: 0;
+        width: 100%;
 	}
-    .pokemon-info{
-        font-size: 0.95em;
-        width: 69%;
-        padding: 0;
-    }
     .stats-info {
         font-size: 0.6em;
     }
 }
 @media screen and (max-width:640px) {
     .container-card{
-
+        width: 310px;
+        position: fixed;
+    }
+    .stats-info {
+        padding: 0 10px;
     }
 
 }

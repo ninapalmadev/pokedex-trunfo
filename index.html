@@ -6,17 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/components/style.css">
-    <link rel="stylesheet" href="css/components/main-container.css">
-    <link rel="stylesheet" href="css/components/main-search.css">
     <link rel="stylesheet" href="css/components/section-pokemons-details.css">
     <link rel="stylesheet" href="css/components/main-card-wrap.css">
-    <link rel="stylesheet" href="css/components/section-favorites.css">
     <title>Pokedex - Trunfo</title>
 </head>
 <body>
     <header>
         <h1 class="title">Pokedex Trunfo</h1>
         <p class="info-mobile">Clique no Pokemón para ver mais informações.</p>
+        <p class="info-desk">Clique no Pokemón para ver mais informações.</p>
     </header>
     <main>
         <div class="container">
@@ -28,31 +26,17 @@
                     </form>
                 </div>
                 <div class="more-info hiden">
-                    <p>Clique no Pokemón para ver mais informações aqui.</p>
                 </div>
             </section>
             <section class="container-card">
                 <div class="pokemon-info"></div>
             </section>
-            <section class="favorite">
-                <buttom id="fav-btn" name="fav-btn" type="submit">
-                    <a href="#">
-                        <input type="image" src="assets/estrela-fav.png"
-                        alt="icone de estrela para favoritar" height="60px">
-                        Favoritar
-                    </a>
-                </buttom>
-            </section>
         </div>
-        <div id="card_wrap" class="card-wrap">
-
-        </div>
+        <div id="card_wrap" class="card-wrap"></div>
     </main>
     <footer>
         Site Criado por <a href="https://github.com/ninapalmadev">Nina Palma</a> com <img src="" alt=""> Front Arretado
     </footer>
     <script src="script.js"></script>
-    <script src="app.js"></script>
-    <script src="scroll.js"></script>
 </body>
 </html>

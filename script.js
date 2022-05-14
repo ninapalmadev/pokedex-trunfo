@@ -16,9 +16,9 @@ const fetchPokemon = () => {
             id: data.id,
             image: data.sprites['front_default'],
             type: data.types.map(typeInfo => typeInfo.type.name).join(' | ')
-        }));
+        }));  
         cardPokemon(pokemon);
-
+        
         //BUSCA POR NOME E TIPO
         searchInput.addEventListener('keyup', (e)=> {
             const searchString = e.target.value.toLowerCase();
@@ -104,3 +104,4 @@ const fetchPokemonCard = (pokemonNumber) => {
             `;
         });
 };
+

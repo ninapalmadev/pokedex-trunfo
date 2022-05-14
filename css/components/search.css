@@ -1,7 +1,7 @@
-.container .search {
+.search {
     height: 90%;
     width: 100%;
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-color: var(--cor-branco);
     border-bottom: 2px solid var(--cor-roxo-principal);
     border-top-left-radius: 20px;
@@ -25,9 +25,14 @@
     font-size: 0.8em;
     }
 }
-
 @media screen and (max-width:768px) {
     .container .search {
-    font-size: 0.6em;
+    font-size: 0.7em;
+    }
+}
+@media screen and (max-width:640px) {
+    .search {
+        border-bottom: none;
+        font-size: 0.65em;
     }
 }

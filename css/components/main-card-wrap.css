@@ -2,10 +2,9 @@
     display: flex;
     flex-direction: row;
 	flex-wrap: wrap;
-    justify-content: space-between;
-    width: 900px;
-    gap: 10px;
-    margin-left: 30%;
+    justify-content: space-around;
+    width: 950px;
+    margin-left: 26.5%;
     padding: 10px;
     background-color: var(--cor-branco);
     border-radius: 30px;
@@ -13,16 +12,13 @@
     text-transform: uppercase;
 }
 .card{
-    width: 195px;
-    height: 200px;
-    margin: 5px;
+    width: 170px;
+    height: 180px;
+    margin: 8px;
 	color: #222;
 	text-align: center;
 	border-radius: 20px;
-}
-.card .card-img {
-    height: 110px;
-    margin-top: 10px;
+    box-shadow: 3px 3px 10px rgb(99, 99, 99);
 }
 .card:hover{
     transition: all 0.2s;
@@ -48,68 +44,12 @@
 .card .card-type{
     font-size: 0.7rem;
 }
-
-.bug {
-    background: radial-gradient(circle at 60% 0%, #26de81 46%, #fff 36%);
-}
-.dragon {
-    background: radial-gradient(circle at 60% 0%, #ffeaa7 46%, #fff 36%);
-}
-.electric {
-    background: radial-gradient(circle at 60% 0%, #fed330 46%, #fff 36%);
-}
-.fairy {
-    background: radial-gradient(circle at 60% 0%, #FF0069 46%, #fff 36%);
-}
-.fighting{
-    background: radial-gradient(circle at 60% 0%, #30336b 46%, #fff 36%);
-}
-.fire {
-    background: radial-gradient(circle at 60% 0%, #f0932b 46%, #fff 36%);
-}
-.flying {
-    background: radial-gradient(circle at 60% 0%, #81ecec 46%, #fff 36%);
-}
-.grass {
-    background: radial-gradient(circle at 60% 0%, #00b894 46%, #fff 36%);
-}
-.ground {
-    background: radial-gradient(circle at 60% 0%, #EFB549 46%, #fff 36%);
-}
-.ghost {
-    background: radial-gradient(circle at 60% 0%, #a55eea 46%, #fff 36%);
-}
-.ice{
-    background: radial-gradient(circle at 60% 0%, #74b9ff 46%, #fff 36%);
-}
-.normal {
-    background: radial-gradient(circle at 60% 0%, #95afc0 46%, #fff 36%);
-}
-.poison {
-    background: radial-gradient(circle at 60% 0%, #6c5ce7 46%, #fff 36%);
-}
-.psychic {
-    background: radial-gradient(circle at 60% 0%, #a29bfe 46%, #fff 36%);
-}
-.rock {
-    background: radial-gradient(circle at 60% 0%, #2d3436 46%, #fff 36%);
-}
-.water {
-    background: radial-gradient(circle at 60% 0%, #0190FF 46%, #fff 36%);
-}
-
 @media screen and (max-width:1024px) {
     .card-wrap{
         width: 90%;
-        margin-right: 15px;
         align-items: center;
         gap: 1rem;
-        margin-left: 42%;
-    }
-    .card {
-        width: 150px;
-        height: 200px;
-        margin: 5px;
+        margin-left: 35%;
     }
 }
 @media screen and (max-width:768px) {
@@ -120,7 +60,7 @@
         margin-left: 42%;
     }
     .card-wrap .card{
-        width: 110px;
+        width: 130px;
         height: 160px;
     }
     .card .card-img {
@@ -143,7 +83,7 @@
     }
     .card-wrap .card{
         width: 130px;
-        height: 150px;
+        height: 160px;
         gap: 1rem;
         margin: 8px;
     }

@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("main-card-wrap.css");
+@import url("header.css");
+@import url("search.css");
+@import url("main-container.css");
+
 
 :root {
     --cor-fundo: #f4f7f8;
@@ -19,28 +24,54 @@ html, body {
     background-color: #f4f7f8;
     text-align: center;
 }
-header .title {
-    margin: 15px 0;
-    font-size: 2.3em;
-}
-.info-mobile {
-    display: none;
-}
 
-@media screen and (max-width:1024px){
-    .info-mobile{
-        display: none;
-    }
+.bug {
+    background: radial-gradient(circle at 60% 0%, #26de81 46%, #fff 36%);
 }
-@media screen and (max-width:768px){
-    .info-mobile{
-        display: none;
-    }
+.dragon {
+    background: radial-gradient(circle at 60% 0%, #ffeaa7 46%, #fff 36%);
 }
-@media screen and (max-width:640px){
-    .info-mobile{
-        display: block;
-    }
+.electric {
+    background: radial-gradient(circle at 60% 0%, #fed330 46%, #fff 36%);
+}
+.fairy {
+    background: radial-gradient(circle at 60% 0%, #FF0069 46%, #fff 36%);
+}
+.fighting{
+    background: radial-gradient(circle at 60% 0%, #30336b 46%, #fff 36%);
+}
+.fire {
+    background: radial-gradient(circle at 60% 0%, #f0932b 46%, #fff 36%);
+}
+.flying {
+    background: radial-gradient(circle at 60% 0%, #81ecec 46%, #fff 36%);
+}
+.grass {
+    background: radial-gradient(circle at 60% 0%, #00b894 46%, #fff 36%);
+}
+.ground {
+    background: radial-gradient(circle at 60% 0%, #EFB549 46%, #fff 36%);
+}
+.ghost {
+    background: radial-gradient(circle at 60% 0%, #a55eea 46%, #fff 36%);
+}
+.ice{
+    background: radial-gradient(circle at 60% 0%, #74b9ff 46%, #fff 36%);
+}
+.normal {
+    background: radial-gradient(circle at 60% 0%, #95afc0 46%, #fff 36%);
+}
+.poison {
+    background: radial-gradient(circle at 60% 0%, #6c5ce7 46%, #fff 36%);
+}
+.psychic {
+    background: radial-gradient(circle at 60% 0%, #a29bfe 46%, #fff 36%);
+}
+.rock {
+    background: radial-gradient(circle at 60% 0%, #2d3436 46%, #fff 36%);
+}
+.water {
+    background: radial-gradient(circle at 60% 0%, #0190FF 46%, #fff 36%);
 }
 
 
