@@ -44,6 +44,10 @@ html, body {
     text-align: center;
 }
 
+footer {
+    margin-bottom: 20px;
+}
+
 .bug {
     background: radial-gradient(circle at 60% 0%, var(--bug) 46%, #fff 36%);
 }
