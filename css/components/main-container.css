@@ -8,7 +8,7 @@ main .container {
     height: 540px;
     padding: 0 10px;
     background-color: var(--cor-branco);
-    border: 2px solid var(--cor-roxo-principal);
+    border: 2px solid var(--cor-vermelho);
     box-shadow: 5px 5px 10px rgb(100, 100, 100);
     border-radius: 20px;
     margin-left: 20px;   

@@ -3,12 +3,12 @@
     width: 100%;
     padding: 10px 20px;
     background-color: var(--cor-branco);
-    border-bottom: 2px solid var(--cor-roxo-principal);
+    border-bottom: 2px solid var(--cor-vermelho);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .search input {
-    border: 2px solid var(--cor-roxo-principal);
+    border: 2px solid var(--cor-vermelho);
     border-radius: 35px;
     padding: 10px;
     margin-top:8px;
