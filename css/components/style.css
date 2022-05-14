@@ -36,14 +36,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--fonte1);
-    
+
     font-size: 1em;
     text-decoration: none;
 }
 html, body {
     min-height: 100vh;
     background: rgb(204,0,0);
-    background: linear-gradient(149deg, rgba(204,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
     text-align: center;
 }
 
