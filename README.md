@@ -9,7 +9,7 @@
 * [Descrição do Projeto](#descrição-do-Projeto)
 * [Status do Projeto](#status-do-Projeto)
 * [Tecnologias utilizadas](#tecnologias-usadas)
-* [Funcionalidades e Como Executar](#funcionalidades-e-como-executar)
+* [Funcionalidades e Como Executar](#funcionalidades)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 * [Conclusão](#conclusão)
 
@@ -37,7 +37,7 @@ Em conclusão. A criadora e editora segue adquirindo conhecimento no conteúdo d
 Esse projeto dispõe de uma barra de busca por nome e tipo. Nela é possível ver, enquanto digita, os pokémons que se relacionam com a palavra colocada.
 É possível, também, ao selecionar qualquer pokémon e ser exibido card lateral contendo informação sobre ataque, defesa, HP que são avaliados de 0 a 200 conforme a habilidade do pokémon.
 
-## Pessoas Desevolvedoras
+## Pessoas Desenvolvedoras
 [Nina Palma](https://www.linkedin.com/in/ninapalmadev/) - Dev Jr em ascensão
 [Kilderson](https://www.linkedin.com/in/dersonsena/) - Mentor e principal "tirador" de dúvidas.
 *Front Arretado* - comunidade ativa e solidária, colaborativa e em função de possibilitar que o time cresça em conteúdo e qualidade. 
