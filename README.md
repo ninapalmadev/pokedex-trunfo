@@ -9,7 +9,7 @@
 * [Descrição do Projeto](#descrição-do-Projeto)
 * [Status do Projeto](#status-do-Projeto)
 * [Tecnologias utilizadas](#tecnologias-usadas)
-* [Funcionalidades e Como Executar](#funcionalidades)
+* [Funcionalidades e Como Executar](#funcionalidades-do-projeto)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 * [Conclusão](#conclusão)
 
