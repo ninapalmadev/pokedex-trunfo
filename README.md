@@ -23,9 +23,9 @@ Em conclusão. A criadora e editora segue adquirindo conhecimento no conteúdo d
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
--[API o que é ](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs)
--[Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
--[Requisições síncronas e assíncronas](https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests)
+ - [API o que é ](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs)
+ - [Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
+ - [Requisições síncronas e assíncronas](https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests)
 
 ## Funcionalidades do projeto
 
