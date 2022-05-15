@@ -13,10 +13,10 @@
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 * [Conclusão](#conclusão)
 
-##Descrição do Projeto
+## Descrição do Projeto
 Repositório criado para continuação da aplicação de HTML, CSS e JavaScript. Um desafio proporcionado pelo Front Arretado e organizado por [Kilderson](https://www.linkedin.com/in/dersonsena/).  Fazendo requisições assíncronas para a [PokéAPI](https://pokeapi.co/?ref=public-apis), neste projeto é possível consultar pokémons por nome e por tipo. Além de apresentar, ao clicar, cards com mais informações do pokémon selecionado.
 
-##Status do Projeto
+## Status do Projeto
 Em conclusão. A criadora e editora segue adquirindo conhecimento no conteúdo de JavaScript para poder aprimorar o código e suas funcionalidades.
 
 ## Tecnologias usadas
