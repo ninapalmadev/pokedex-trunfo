@@ -38,9 +38,9 @@ Esse projeto dispõe de uma barra de busca por nome e tipo. Nela é possível ve
 É possível, também, ao selecionar qualquer pokémon e ser exibido card lateral contendo informação sobre ataque, defesa, HP que são avaliados de 0 a 200 conforme a habilidade do pokémon.
 
 ## Pessoas Desenvolvedoras
-[Nina Palma](https://www.linkedin.com/in/ninapalmadev/) - Dev Jr em ascensão
-[Kilderson](https://www.linkedin.com/in/dersonsena/) - Mentor e principal "tirador" de dúvidas.
-*Front Arretado* - comunidade ativa e solidária, colaborativa e em função de possibilitar que o time cresça em conteúdo e qualidade. 
+* [Nina Palma](https://www.linkedin.com/in/ninapalmadev/) - Dev Jr em ascensão
+* [Kilderson](https://www.linkedin.com/in/dersonsena/) - Mentor e principal "tirador" de dúvidas.
+* *Front Arretado* - comunidade ativa e solidária, colaborativa e em função de possibilitar que o time cresça em conteúdo e qualidade. 
 
 ## Conclusão
 
